@@ -106,9 +106,8 @@ async function start() {
         console.error('Failed to apply DB schema:', err);
     }
 
-    app.listen(port, () => {
-        console.log(`Server listening on http://localhost:${port}`);
-    });
+    app.listen(3001)
+
 }
 
 start();
