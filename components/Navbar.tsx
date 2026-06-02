@@ -6,10 +6,6 @@ interface NavbarProps {
   isDarkMode: boolean;
   toggleTheme: () => void;
 }
-
-
-
-
 const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme }) => {
   const [activeSection, setActiveSection] = useState('home');
 
