@@ -7,6 +7,9 @@ interface NavbarProps {
   toggleTheme: () => void;
 }
 
+
+
+
 const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme }) => {
   const [activeSection, setActiveSection] = useState('home');
 
@@ -58,8 +61,8 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleTheme }) => {
               key={link.id}
               href={`#${link.id}`}
               className={`px-3 py-1.5 rounded-full text-xs sm:text-sm font-bold transition-all duration-300 ${activeSection === link.id
-                  ? 'bg-indigo-600 text-white shadow-md shadow-indigo-500/20'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-white'
+                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-500/20'
+                : 'text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-white'
                 }`}
             >
               {link.name}
