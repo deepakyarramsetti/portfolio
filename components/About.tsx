@@ -36,7 +36,7 @@ const About: React.FC = () => {
           <div className="grid grid-cols-2 gap-4 pt-4">
             <div className="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 shadow-sm">
               <p className="text-[10px] text-slate-400 uppercase font-black tracking-widest mb-1">Experience</p>
-              <p className="text-2xl font-black text-slate-900 dark:text-white">1.5+ Years</p>
+              <p className="text-2xl font-black text-slate-900 dark:text-white">2.5 Years</p>
             </div>
             <div className="p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 shadow-sm">
               <p className="text-[10px] text-slate-400 uppercase font-black tracking-widest mb-1">Projects Done</p>

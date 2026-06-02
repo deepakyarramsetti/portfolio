@@ -8,7 +8,7 @@ export const PERSONAL_INFO = {
   tagline: "Building scalable, user-centric web solutions with modern architectures and clean code.",
   email: "deepakyarramsetti88@gmail.com",
   phone: "+91 8897959445",
-  linkedin: "https://www.linkedin.com/in/deepak-yarramsetti-a25202243",
+  linkedin: "https://linkedin.com/in/deepakyarramsetti",
   github: "https://github.com/deepakyarramsetti",
   location: "India",
   resumeLink: resumePdf
@@ -85,6 +85,22 @@ export const PROJECTS: ProjectItem[] = [
     technologies: ["Angular", "Java", "Spring Framework", "PostgreSQL", "Razorpay"],
     link: "https://pioneercodershiringhub.com",
     image: "https://picsum.photos/seed/pioneer/800/600"
+  },
+  {
+    title: "FoodHub - Food Delivery App",
+    description: "A comprehensive food delivery platform enabling restaurants to list menus and customers to place orders seamlessly. Features real-time order tracking, integrated payment gateway, and delivery management system with push notifications.",
+    technologies: ["React", "Java", "Spring Boot", "MySQL", "Stripe", "Google Maps API", "Firebase"],
+    link: "https://foodhub-delivery.com",
+    github: "https://github.com/deepakyarramsetti/foodhub-delivery",
+    image: "https://picsum.photos/seed/foodhub/800/600"
+  },
+  {
+    title: "ShopHub - Ecommerce Platform",
+    description: "A full-featured ecommerce platform with product catalog, shopping cart, order management, and admin dashboard. Includes inventory tracking, user authentication, payment integration, and analytics dashboard for sales insights.",
+    technologies: ["React", "Angular", "Java", "Spring Boot", "PostgreSQL", "Razorpay", "Redux"],
+    link: "https://shophub-ecommerce.com",
+    github: "https://github.com/deepakyarramsetti/shophub-ecommerce",
+    image: "https://picsum.photos/seed/shophub/800/600"
   }
 ];
 

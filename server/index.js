@@ -1,5 +1,6 @@
 import cors from 'cors';
 import express from 'express';
+import dotenv from 'dotenv';
 import pg from 'pg';
 import path from 'path';
 import fs from 'fs';
