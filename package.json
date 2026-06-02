@@ -13,9 +13,9 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.6.1",
-    "lucide-react": "^0.474.0",
-    "pg": "^8.16.3",
     "express": "^4.21.2",
+    "lucide-react": "^0.474.0",
+    "nodemailer": "^8.0.10",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

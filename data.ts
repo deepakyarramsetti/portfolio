@@ -1,6 +1,5 @@
 
 import { SkillCategory, ExperienceItem, ProjectItem, EducationItem } from './types';
-import resumePdf from './Resume.pdf';
 
 export const PERSONAL_INFO = {
   name: "Deepak Yarramsetti",
@@ -11,7 +10,7 @@ export const PERSONAL_INFO = {
   linkedin: "https://linkedin.com/in/deepakyarramsetti",
   github: "https://github.com/deepakyarramsetti",
   location: "India",
-  resumeLink: resumePdf
+  resumeLink: '/Resume.pdf'
 };
 
 export const SKILLS: SkillCategory[] = [
