@@ -46,6 +46,16 @@ export default async function handler(req, res) {
     if (message.length > 5000) return res.status(400).json({ error: 'Message is too long' });
 
     try {
+        // Debug: Check if env vars are set
+        console.log('Environment variables check:');
+        console.log('GMAIL_USER:', process.env.GMAIL_USER ? '✓ Set' : '✗ Missing');
+        console.log('GMAIL_PASS:', process.env.GMAIL_PASS ? '✓ Set' : '✗ Missing');
+        console.log('CONTACT_EMAIL:', process.env.CONTACT_EMAIL ? '✓ Set' : '✗ Missing');
+
+        if (!process.env.GMAIL_USER || !process.env.GMAIL_PASS) {
+            throw new Error('Gmail credentials are not configured. Add GMAIL_USER and GMAIL_PASS to Vercel environment variables.');
+        }
+
         // Create email transporter using Gmail
         const transporter = nodemailer.createTransport({
             service: 'gmail',
