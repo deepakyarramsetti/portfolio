@@ -1,17 +1,6 @@
 {
     "buildCommand": "npm run build",
     "outputDirectory": "dist",
-    "env": {
-        "GMAIL_USER": {
-            "description": "Gmail address for sending emails"
-        },
-        "GMAIL_PASS": {
-            "description": "Gmail app password (not your regular password)"
-        },
-        "CONTACT_EMAIL": {
-            "description": "Email address where contact form messages are sent"
-        }
-    },
     "functions": {
         "api/contact.js": {
             "memory": 256,
